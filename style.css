@@ -4,6 +4,67 @@
   list-style-type: none;
 }
 
-#img-left {
+a, p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body,
+html {
+  height: 100%;
+
+  display: flex;
+}
+
+#root-container {
+  display: flex;
+}
+
+#img-section {
   background-image: url("res/signup-img.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: 100%;
+  width: 40vw;
+  min-width: 400px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#odin-overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 40%;
+}
+
+#odin-overlay > img {
+  height: 150px;
+}
+
+#odin-overlay > p {
+  font-family: "Norse", sans-serif;
+  color: white;
+  font-size: 80px;
+  font-weight: bold;
+}
+
+#img-credit {
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+
+  font-weight: lighter;
+
+  a {
+    text-decoration: underline;
+    color: white;
+  }
 }
