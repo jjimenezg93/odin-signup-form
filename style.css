@@ -3,3 +3,7 @@
   padding: 0;
   list-style-type: none;
 }
+
+#img-left {
+  background-image: url("res/signup-img.jpg");
+}
